@@ -6,8 +6,8 @@ const app = new Hono();
 console.log("Hello via Bun!");
 
 app.get("/", async (c) => {
-  //   const body = await c.req.json();
-  //   console.log(body);
+  // const body = await c.req.json();
+  // console.log(body);
 
   return c.html(
     <>
@@ -17,7 +17,7 @@ app.get("/", async (c) => {
   );
 });
 
-app.route("/p", perm);
+app.route("/", perm);
 
 export default app;
 

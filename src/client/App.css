@@ -1,0 +1,15 @@
+* {
+  min-width: 0;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+}
+
+#root {
+  width: 100%;
+  word-break: break-all;
+}
+
